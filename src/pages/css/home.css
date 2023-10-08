@@ -3,45 +3,48 @@
   list-style: none;
   width: 1000px;
 }
-
-.list-header {
+.taskList .error-message {
+  color: #ff3333;
+}
+.taskList .list-header {
   display: flex;
   justify-content: space-between;
 }
-
-.list-menu {
+.taskList .list-header div {
   text-align: right;
 }
-
-.list-tab {
+.taskList ul {
   list-style: none;
   display: flex;
   overflow-x: auto;
 }
-
-.list-tab-item {
+.taskList ul .list-tab-item {
   flex-shrink: 0;
   width: 100px;
   padding: 0 25px;
   text-overflow: normal;
   margin-right: 5px;
-  border: solid 1px #242F9B;
+  border: solid 1px #242f9b;
   justify-content: center;
   align-items: center;
 }
-
-.active {
-  background-color: #242F9B;
+.taskList ul .active {
+  background-color: #242f9b;
   color: #ffffff;
 }
-
-.tasks {
+.taskList .tasks {
   margin-top: 25px;
 }
-
-.tasks-header {
+.taskList .tasks .tasks-header {
   display: flex;
   justify-content: space-between;
+}
+.taskList .tasks .display-select-wrapper {
+  width: 100px;
+  margin: 0 0 25px auto;
+}
+.taskList .tasks .display-select-wrapper select {
+  width: 100%;
 }
 
 .task-item {
@@ -53,24 +56,10 @@
   font-size: large;
   border: solid 1px #ffffff;
 }
-
-.task-item-link {
+.task-item .task-item-link {
   display: block;
   width: 100%;
   height: 100%;
   text-decoration: none;
   color: #000000;
-}
-
-.error-message {
-  color: #ff3333;
-}
-
-.display-select-wrapper {
-  width: 100px;
-  margin: 0 0 25px auto;
-}
-
-.display-select {
-  width: 100%;
-}
+}/*# sourceMappingURL=home.css.map */

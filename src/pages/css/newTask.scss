@@ -1,0 +1,38 @@
+@charset "utf-8";
+
+@mixin formPartsSize{
+    width: 300px;
+    margin-bottom: 25px;
+}
+
+.new-task {
+  width: 1000px;
+  margin: 0 auto;
+
+  .error-message {
+    color: #ff3333;
+  }
+  form{
+    color: #555555;
+
+    select{
+        @include formPartsSize;
+    }
+
+    input{
+        @include formPartsSize;
+    }
+
+    textarea {
+        height: 200px;
+        @include formPartsSize;
+    }
+    button {
+        background-color: #242f9b;
+        color: #ffffff;
+        width: 80px;
+        height: 40px;
+        border-radius: 5px;
+    }
+  }
+}

@@ -1,0 +1,40 @@
+@charset "utf-8";
+
+$red: #ff3333;
+
+@mixin buttonSize{
+  width: 80px;
+  height: 40px;
+  border-radius: 5px;
+}
+
+.edit-list {
+  width: 1000px;
+  margin: 0 auto;
+
+  .error-message {
+    color: $red;
+  }
+
+  form{
+    color: #555555;
+
+    input{
+        width: 300px;
+        margin-bottom: 25px;
+    }
+
+    .delete-list-button {
+      color: $red;
+      border: solid 1px $red;
+      margin: 25px 5px;
+      @include buttonSize;
+    }
+  
+    .edit-list-button {
+      background-color: #242f9b;
+      color: #ffffff;
+      @include buttonSize;
+    }
+  }
+}

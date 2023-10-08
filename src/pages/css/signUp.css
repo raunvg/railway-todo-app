@@ -1,0 +1,36 @@
+.signup {
+  width: 500px;
+  margin: 0 auto;
+}
+.signup .error-message {
+  color: #ff3333;
+}
+.signup form {
+  margin: 25px 0;
+  color: #555555;
+}
+.signup form .email-input {
+  width: 100%;
+  font-size: large;
+  height: 30px;
+  margin-bottom: 25px;
+}
+.signup form .name-input {
+  width: 100%;
+  font-size: large;
+  height: 30px;
+  margin-bottom: 25px;
+}
+.signup form .password-input {
+  width: 100%;
+  font-size: large;
+  height: 30px;
+  margin-bottom: 25px;
+}
+.signup form button {
+  background-color: #242f9b;
+  color: #ffffff;
+  width: 100px;
+  height: 40px;
+  border-radius: 5px;
+}/*# sourceMappingURL=signUp.css.map */

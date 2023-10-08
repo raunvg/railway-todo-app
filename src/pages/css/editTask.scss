@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+@mixin formPartsSize{
+    width: 300px;
+    margin-bottom: 25px;
+}
+@mixin buttonSize{
+    width: 80px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.edit-task {
+  width: 1000px;
+  margin: 0 auto;
+
+  .error-message {
+    color: #ff3333;
+  }
+  form{
+    color: #555555;
+
+    .edit-task-title{
+        @include formPartsSize;
+    }
+
+    textarea{
+        @include formPartsSize;
+    }
+
+    .delete-task-button {
+        color: #ff3333;
+        border: solid 1px #ff3333;
+        margin: 25px 5px;
+        @include buttonSize;
+      }
+      
+    .edit-task-button {
+        background-color: #242f9b;
+        color: #ffffff;
+        @include buttonSize;
+      }      
+  }  
+}

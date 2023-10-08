@@ -1,0 +1,49 @@
+@charset "utf-8";
+
+@mixin labelColor{
+  color: #555555;
+}
+@mixin inputSetting{
+  width: 100%;
+  font-size: large;
+  height: 30px;
+  margin-bottom: 25px;
+}
+
+.signin {
+  width: 500px;
+  margin: 0 auto;
+
+  .error-message {
+    color: #ff3333;
+  }
+
+  form{
+    margin: 25px 0;
+
+    .email-label{
+      @include labelColor;
+    }
+
+    .email-input{
+      @include inputSetting;
+    }
+
+    .password-label{
+      @include labelColor;
+    }
+    
+    .password-input{
+      @include inputSetting;
+    }
+
+    button{
+      background-color: #242f9b;
+      color: #ffffff;
+      width: 100px;
+      height: 40px;
+      border-radius: 5px;
+    }
+  }
+}
+

@@ -1,0 +1,30 @@
+.new-task {
+  width: 1000px;
+  margin: 0 auto;
+}
+.new-task .error-message {
+  color: #ff3333;
+}
+.new-task form {
+  color: #555555;
+}
+.new-task form select {
+  width: 300px;
+  margin-bottom: 25px;
+}
+.new-task form input {
+  width: 300px;
+  margin-bottom: 25px;
+}
+.new-task form textarea {
+  height: 200px;
+  width: 300px;
+  margin-bottom: 25px;
+}
+.new-task form button {
+  background-color: #242f9b;
+  color: #ffffff;
+  width: 80px;
+  height: 40px;
+  border-radius: 5px;
+}/*# sourceMappingURL=newTask.css.map */

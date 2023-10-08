@@ -1,0 +1,33 @@
+.edit-task {
+  width: 1000px;
+  margin: 0 auto;
+}
+.edit-task .error-message {
+  color: #ff3333;
+}
+.edit-task form {
+  color: #555555;
+}
+.edit-task form .edit-task-title {
+  width: 300px;
+  margin-bottom: 25px;
+}
+.edit-task form textarea {
+  width: 300px;
+  margin-bottom: 25px;
+}
+.edit-task form .delete-task-button {
+  color: #ff3333;
+  border: solid 1px #ff3333;
+  margin: 25px 5px;
+  width: 80px;
+  height: 40px;
+  border-radius: 5px;
+}
+.edit-task form .edit-task-button {
+  background-color: #242f9b;
+  color: #ffffff;
+  width: 80px;
+  height: 40px;
+  border-radius: 5px;
+}/*# sourceMappingURL=editTask.css.map */
